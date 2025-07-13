@@ -24,10 +24,9 @@ img {
 
 
 .profile {
-    display: flex;
-    flex-direction: row;
-    gap: 2em
-
+   display: flex;
+   flex-direction: row;
+   gap: 2em; 
 }
 
 .profile-image {
@@ -43,4 +42,31 @@ img {
 }
 
 
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 5px;
+    
+    padding-block: 5px;
+    width:min(95%, 70em);
+    margin-inline: auto;
+
+    
+}
+
+.gallery-image {
+    max-width: 100%;
+    height: auto;   
+}
+
+
+
+#shadow {
+    transition: all infinite ease-in;
+} 
+
+#shadow:hover {
+    filter: brightness(80%);
+
+} 
 
