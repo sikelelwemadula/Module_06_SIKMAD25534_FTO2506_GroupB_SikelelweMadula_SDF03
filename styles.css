@@ -20,4 +20,10 @@ body {
 
 img {
     display: block;
+} 
+
+.profile-user-settings {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
